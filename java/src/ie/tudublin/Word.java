@@ -61,7 +61,7 @@ public class Word {
     public String toString()
     {
         String str = " ";
-        str += word + ":";
+        str += word + " : ";
         for(Follow word:follows) {
             str +=" "+word.toString();
         } // end for
